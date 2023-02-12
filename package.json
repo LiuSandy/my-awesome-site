@@ -1,0 +1,24 @@
+{
+  "name": "my-awesome-site",
+  "version": "1.0.0",
+  "description": "using different cms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuSandy/my-awesome-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiuSandy/my-awesome-site/issues"
+  },
+  "homepage": "https://github.com/LiuSandy/my-awesome-site#readme",
+  "dependencies": {
+    "@tinacms/cli": "^1.1.0",
+    "tinacms": "^1.2.0"
+  }
+}
