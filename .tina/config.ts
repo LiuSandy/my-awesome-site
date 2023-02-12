@@ -4,9 +4,9 @@ import { defineConfig } from "tinacms";
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
-  branch,
-  clientId: null, // Get this from tina.io
-  token: null, // Get this from tina.io
+  branch: "main",
+  clientId: "69d0a34c-7988-4c79-9cec-de7a029947e3", // Get this from tina.io
+  token: "cf7b0248893a73f6812172ec5591a690547e9465", // Get this from tina.io
   build: {
     outputFolder: "admin",
     publicFolder: "public",
