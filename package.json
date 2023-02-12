@@ -4,6 +4,7 @@
   "description": "using different cms",
   "main": "index.js",
   "scripts": {
+    "dev": "tinacms dev -c \"jekyll serve\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
