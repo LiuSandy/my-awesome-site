@@ -10,10 +10,10 @@ _select_data:
     - Blue
 
 # Base path to your site source files, same as source for Jekyll
-source: src
+source: 
 
 # The subpath your built output files are mounted at, same as baseurl for Jekyll
-base_url: /documentation
+base_url: 
 
 # Populates collections for navigation and metadata in the editor
 collections_config:
