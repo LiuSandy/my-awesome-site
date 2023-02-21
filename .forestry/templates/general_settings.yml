@@ -1,7 +1,0 @@
----
-label: blog post
-hide_body: false
-fields:
-- type: list
-  name: phone_number
-  label: phone number
