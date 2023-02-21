@@ -9,6 +9,8 @@ sections:
   label: Data File
   create: all
   match: "**/*"
+  templates:
+  - general_settings
 - type: jekyll-pages
   label: Pages
   create: all
