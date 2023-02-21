@@ -1,0 +1,36 @@
+---
+label: flow360-web-client
+hide_body: true
+fields:
+- type: field_group
+  name: more_section
+  label: more_section
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: more_text
+    label: more_text
+- type: field_group_list
+  name: releases
+  label: releases
+  fields:
+  - type: text
+    name: version
+    label: version
+  - type: text
+    name: date
+    label: date
+  - type: text
+    name: link
+    label: link
+  - type: list
+    name: new_features
+    label: new_features
+  - type: list
+    name: resolved_issues
+    label: resolved_issues
+  - type: list
+    name: improvements
+    label: improvements
