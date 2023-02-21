@@ -32,11 +32,6 @@ fields:
 - type: text
   name: address_01
   label: address_01
-- type: list
-  name: phone_numbers
-  label: phone_numbers
-  config:
-    use_select: false
 - type: text
   name: copyright_text
   label: copyright_text
