@@ -1,0 +1,288 @@
+---
+label: general-setting
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: email_2
+  label: email_2
+- type: text
+  name: description
+  label: description
+- type: file
+  name: black_logo_1x
+  label: black_logo_1x
+- type: file
+  name: black_logo_2x
+  label: black_logo_2x
+- type: file
+  name: black_logo_small
+  label: black_logo_small
+- type: file
+  name: light_logo_1x
+  label: light_logo_1x
+- type: file
+  name: light_logo_2x
+  label: light_logo_2x
+- type: file
+  name: light_logo_small
+  label: light_logo_small
+- type: text
+  name: address_01
+  label: address_01
+- type: list
+  name: phone_numbers
+  label: phone_numbers
+- type: text
+  name: copyright_text
+  label: copyright_text
+- type: textarea
+  name: google_map
+  label: google_map
+- type: field_group
+  name: google_reCAPTCHA
+  label: google_reCAPTCHA
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: key
+    label: key
+- type: text
+  name: contact_us_form_id
+  label: contact_us_form_id
+- type: field_group
+  name: social_accounts
+  label: social_accounts
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: links
+    label: links
+    fields:
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: icon
+      label: icon
+- type: field_group
+  name: one_page_nav_settings
+  label: one_page_nav_settings
+  fields:
+  - type: field_group_list
+    name: links
+    label: links
+    fields:
+    - type: text
+      name: text
+      label: text
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: author_page_header
+  label: author_page_header
+  fields:
+  - type: text
+    name: header_background_image
+    label: header_background_image
+- type: field_group
+  name: gallery
+  label: gallery
+  fields:
+  - type: field_group_list
+    name: images
+    label: images
+    fields:
+    - type: file
+      name: img
+      label: img
+- type: field_group
+  name: login
+  label: login
+  fields:
+  - type: text
+    name: id
+    label: id
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: url
+    label: url
+- type: field_group
+  name: contact_us
+  label: contact_us
+  fields:
+  - type: text
+    name: id
+    label: id
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: url
+    label: url
+  - type: field_group_list
+    name: submenu
+    label: submenu
+    fields:
+    - type: text
+      name: text
+      label: text
+    - type: text
+      name: url
+      label: url
+- type: field_group_list
+  name: footer_links
+  label: footer_links
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: id
+    label: id
+- type: field_group
+  name: office
+  label: office
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: icon
+    label: icon
+  - type: field_group_list
+    name: lists
+    label: lists
+    fields:
+    - type: text
+      name: enable
+      label: enable
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: company
+      label: company
+- type: field_group
+  name: email
+  label: email
+  fields:
+  - type: text
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: icon
+    label: icon
+  - type: file
+    name: image
+    label: image
+  - type: field_group_list
+    name: lists
+    label: lists
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: email
+      label: email
+    - type: text
+      name: click_id
+      label: click_id
+- type: field_group
+  name: recruit_section
+  label: recruit_section
+  fields:
+  - type: text
+    name: email
+    label: email
+  - type: textarea
+    name: steer_text
+    label: steer_text
+- type: field_group
+  name: subscribe
+  label: subscribe
+  fields:
+  - type: textarea
+    name: url
+    label: url
+- type: field_group
+  name: social
+  label: social
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: list
+    label: list
+    fields:
+    - type: text
+      name: type
+      label: type
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: title
+      label: title
+- type: field_group
+  name: channels
+  label: channels
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: list
+    label: list
+    fields:
+    - type: text
+      name: type
+      label: type
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: id
+      label: id
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: title
+      label: title
+- type: field_group
+  name: crisp_chat
+  label: crisp_chat
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
