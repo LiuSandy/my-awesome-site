@@ -283,3 +283,5 @@ fields:
   - type: boolean
     name: enable
     label: enable
+pages:
+- _data/general_settings.yml

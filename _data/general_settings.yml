@@ -71,6 +71,7 @@ footer_links:
   id: __g_footer_link_privacy
 - text: Copyright © 2022 Flexcompute, inc.
   url: javascript:void(0)
+  id: ''
 office:
   enable: true
   title: Locations
@@ -94,7 +95,7 @@ email:
   - enable: false
     email: sales@flexcompute.com
     click_id: sales
-  - enable: ture
+  - enable: true
     email: info@flexcompute.com
     click_id: support
 recruit_section:
