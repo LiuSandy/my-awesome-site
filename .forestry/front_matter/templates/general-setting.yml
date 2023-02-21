@@ -283,5 +283,12 @@ fields:
   - type: boolean
     name: enable
     label: enable
+- name: phone_numbers
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: phone_numbers
 pages:
 - _data/general_settings.yml
