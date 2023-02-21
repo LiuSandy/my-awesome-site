@@ -1,0 +1,88 @@
+---
+more_section:
+  enable: true
+  more_text: More Release Notes
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id68
+log_list:
+- version: 1.7.0
+  date: 10/03/2022
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id3
+  latest: true
+  description: "Our newest release includes the addition of user-requested features
+    and the removal of several features which negatively impacted the customer experience
+    and performance of the product.\n\n"
+  release_types: ''
+  full_list_text: ''
+  full_list_link: ''
+- version: 1.6.3
+  date: '09/13/2022'
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id6
+  latest: ''
+  description: ''
+  release_types: ''
+  full_list_text: ''
+  full_list_link: ''
+- version: 1.6.2
+  date: '09/06/2022'
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id10
+  latest: ''
+  description: ''
+  release_types: ''
+  full_list_text: ''
+  full_list_link: ''
+- version: 1.6.1
+  date: '08/31/2022'
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id14
+  latest: ''
+  description: ''
+  release_types: ''
+  full_list_text: ''
+  full_list_link: ''
+- version: 1.6.0
+  date: '09/07/2022'
+  latest: true
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html
+  description: This new version brings some major internal reorganizations, and a
+    number of new features and bugfixes
+  full_list_text: The full list of changes can be found
+  full_list_link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id3
+  release_types:
+  - enable: true
+    description: 'We would like to highlight some simulation pricing changes starting
+      from this release:'
+    list:
+    - text: We have worked on reducing our overhead and are happy to announce that
+        we are decreasing the minimum charge per task from 0.2 to 0.1 flex units.
+    - text: We have reduced the typical cost premium for dispersive materials in simulations,
+        especially when only part of the simulation is dispersive.
+    - text: We have added a cost for monitors, but this will be negligible in typical
+        simulations, and will only be non-negligible for very large monitors. For
+        example, for a very large frequency-domain monitor at many frequencies, such
+        that the number of pixels in the monitor span times the number of frequencies
+        is similar to the total number of pixels in the simulation, the charge for
+        the monitor will still be only a fraction of the current charge for the simulation
+        run.
+- version: 1.5.0
+  date: 07/21/2022
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id6
+- version: 1.4.0
+  date: 06/03/2022
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id14
+- version: 1.3.3
+  date: 05/18/2022
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id19
+- version: 1.3.0
+  date: 04/26/2022
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id32
+- version: 1.2.1
+  date: 03/30/2022
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id40
+- version: 1.1.1
+  date: 03/02/2022
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id48
+- version: 1.0.1
+  date: 02/16/2022
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id60
+- version: 1.0.0
+  date: 01/31/2022
+  link: https://docs.flexcompute.com/projects/tidy3d/en/latest/changelog.html#id64
