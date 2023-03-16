@@ -1,0 +1,81 @@
+---
+label: publication post template
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  description: Please keep this field untouched.
+  default: post
+  config:
+    required: true
+  hidden: true
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: text
+  name: author
+  label: author
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  default: now
+  config:
+    required: true
+- name: type
+  type: select
+  default: CFD
+  config:
+    required: true
+    options:
+    - EM
+    - CFD
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: product
+  description: Either CFD or EM
+- type: text
+  name: description
+  label: description
+- type: text
+  name: backlink
+  label: publication link
+  config:
+    required: true
+- type: text
+  name: post_image
+  label: post_image
+- name: img_width
+  type: number
+  label: image width
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: img_height
+  type: number
+  label: image height
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: img_style
+  type: text
+  config:
+    required: false
+  label: image style
+pages:
+- _publications/xv-15-rotor-simulation-in-flow360-using-the-blade-element-theory.md
