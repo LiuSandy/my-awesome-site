@@ -64,4 +64,5 @@ fields:
     required: false
   label: permalink
 pages:
+- _posts/untitled-1.md
 - _posts/untitled.md
