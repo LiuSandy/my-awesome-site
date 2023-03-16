@@ -64,27 +64,4 @@ fields:
     required: false
   label: permalink
 pages:
-- _posts/2021-09-08-airplane-cfd-workflow.md
-- _posts/2021-10-06-AIAA-High-Lift-Prediction-Workshop.md
-- _posts/2021-10-06-speed-sweep.md
-- _posts/2021-11-23-Welcome-Philippe-Spalart-Aboard.md
-- _posts/2021-11-29-founding_flexcompute.md
-- _posts/2022-01-18-XV-15-tiltrotor-CFD-case-study.md
-- _posts/2022-03-31-aerodynamic-stall.md
-- _posts/2022-04-05-propeller-simulation-techniques-in-rans-cfd-using-flow360.md
-- _posts/2022-04-14-02-tutorial-run-cfd-using-flow360-case-generator.md
-- _posts/2022-04-14-run-cfd-using-flow360-python-api.md
-- _posts/2022-04-14-run-cfd-using-flow360-web-ui.md
-- _posts/2022-04-27-shanhui-fan-awarded-the-w.r.wood-prize.md
-- _posts/2022-10-07-exploring-the-fluid-dynamics-of-anelectric-short-takeoff-and-landing-estol-aircraft-part-1-of-3.md
-- _posts/2022-10-14-exploring-the-fluid-dynamics-of-an-electric-short-takeoff-and-landing-estol-aircraft-part-2-of-3.md
-- _posts/2022-10-21-exploring-the-fluid-dynamics-of-an-electric-short-takeoff-and-landing-estol-aircraft-part-3-of-3.md
-- _posts/2022-11-11-untitled-1.md
-- _posts/aerodynamic-stall-copy.md
-- _posts/center-aligned-image-test.md
-- _posts/center-aligned-table-sample.md
-- _posts/cfd-simulation-methods-for-high-lift-aircraft-configurations.md
-- _posts/seo-title.md
-- _posts/untitled-1.md
 - _posts/untitled.md
-- _posts/user-defined-dynamics.md

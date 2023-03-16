@@ -77,5 +77,3 @@ fields:
   config:
     required: false
   label: image style
-pages:
-- _publications/xv-15-rotor-simulation-in-flow360-using-the-blade-element-theory.md
